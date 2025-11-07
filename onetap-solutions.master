@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="onetap-solutions.master.cs" Inherits="ashtalaxmi" %>
+
+<%@ Register Src="~/includes/footer.ascx" TagPrefix="uc1" TagName="footer" %>
+<%@ Register Src="~/includes/header.ascx" TagPrefix="uc1" TagName="header" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OneTap Solution</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png" />
+	<link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+	<link rel="manifest" href="manifest.json" />
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="msapplication-TileImage" content="ms-icon-144x144.png" />
+	<meta name="theme-color" content="#ffffff" />
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+	<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="assets/css/base.css?123" rel="stylesheet" />
+	<link href="assets/animation/aos.css" rel="stylesheet" />
+	<link rel='stylesheet' href="assets/css/swiper-bundle.min.css">
+	<link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+	<link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+	<link href="assets/css/csscomb.css" rel="stylesheet" />
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+	<style>
+		.call-box{
+			background:#f2b21d;
+		}
+		.wp-box{
+			background:rgb(78, 153, 72);
+		}
+		.mail-box{
+			background:rgb(15, 105, 174);
+
+		}
+		
+
+	</style>
+</head>
+<body>
+	<div id="direct-call">
+		<div class="container-fluid px-0">
+		<div class="row">
+		<div class="col-4 px-0">
+			<div class="call-box text-white py-2 text-center">
+				<a href="tel:+91 9122435529" class="text-white"><i class="fa fa-phone" aria-hidden="true"></i> Call Now</a>
+				
+			</div>
+			
+
+		</div>
+		<div class="col-4 px-0">
+			<div class="wp-box text-white py-2 text-center">
+				<a class="text-white" href="https://api.whatsapp.com/send?phone=9122435529&amp;text=Hello,%20Onetap%20Solution%20!%20I%20need%20Website%20Design%20Services" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+				
+			</div>
+		</div>
+		<div class="col-4 px-0">
+			<div class="mail-box text-white py-2 text-center">
+				<a href="mailto:sahashok9800@gmail.com" class="text-white"><i class="fa fa-envelope-o" aria-hidden="true"> Send Enquiry</i></a>
+				
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	
+	
+	<form  runat="server">
+		<uc1:header runat="server" ID="header" />
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+		</asp:ContentPlaceHolder>
+		<uc1:footer runat="server" ID="footer" />
+	</form>
+	 
+<%--	<script src="assets/js/jquery.min.js"></script>--%>
+	<script src="assets/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<script src="assets/js/swiper-bundle.min.js"></script>
+	<script src="assets/animation/aos.js"></script>
+	<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link, #footer ul li a');
+            const currentUrl = window.location.pathname.toLowerCase();
+
+            navLinks.forEach(link => {
+                const linkUrl = new URL(link.href).pathname.toLowerCase();
+                if (currentUrl === linkUrl) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+	  <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+    	<script src="assets/js/owl.carousel.min.js"></script>
+
+	<asp:ContentPlaceHolder ID="extrajs" runat="server">
+	</asp:ContentPlaceHolder>
+</body>
+</html>
