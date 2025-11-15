@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="CImage.aspx.cs" Inherits="CImage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CImage.aspx.cs" Inherits="CImage" %>
 
 <!DOCTYPE html>
 

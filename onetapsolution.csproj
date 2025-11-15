@@ -167,6 +167,7 @@
       <DependentUpon>onetap-solutions.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="website-app-development-company-portfolio-consultancy-birgunj.aspx.vb">
       <DependentUpon>website-app-development-company-portfolio-consultancy-birgunj.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/onetap-solutions.master" AutoEventWireup="true" CodeFile="contact-us.aspx.cs" Inherits="contact_us" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/onetap-solutions.master" AutoEventWireup="true" CodeBehind="contact-us.aspx.cs" Inherits="contact_us" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About One Tap Solution | Leading IT & App Development Company in India" Language="C#" MasterPageFile="~/onetap-solutions.master" AutoEventWireup="true" CodeFile="about-web-development-mobile-nepal.aspx.cs" Inherits="about_web_development_mobile_nepal" %>
+﻿<%@ Page Title="About One Tap Solution | Leading IT & App Development Company in India" Language="C#" MasterPageFile="~/onetap-solutions.master" AutoEventWireup="true" CodeBehind="about-web-development-mobile-nepal.aspx.cs" Inherits="about_web_development_mobile_nepal" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
      <meta name="description" content="Learn more about One Tap Solution — an Indian technology company providing website design, mobile app development, software solutions, and digital transformation services with a focus on innovation and user experience." />

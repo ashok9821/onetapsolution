@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="onetap-solutions.master.cs" Inherits="ashtalaxmi" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="onetap-solutions.master.cs" Inherits="ashtalaxmi" %>
 
 <%@ Register Src="~/includes/footer.ascx" TagPrefix="uc1" TagName="footer" %>
 <%@ Register Src="~/includes/header.ascx" TagPrefix="uc1" TagName="header" %>
